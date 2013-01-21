@@ -1,10 +1,10 @@
 #!/bin/bash
 
-gem install vagrant
-gem install veewee
+gem install vagrant --no-ri --no-rdoc
+gem install veewee --no-ri --no-rdoc
 
-veewee vbox build 'centos63' --force
-veewee vbox validate 'centos63' --force
+veewee vbox build 'centos63' --force --auto
+veewee vbox validate 'centos63'
 
 vagrant basebox export 'centos63'
 
