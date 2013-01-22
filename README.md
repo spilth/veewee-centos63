@@ -1,8 +1,9 @@
-# Centos 6.3 Box with veewee
+# CentOS 6.3 Base Box with veewee
 
 ## Requirements
 
-- RVM
+- [RVM](https://rvm.io/)
+- [VirtualBox](https://www.virtualbox.org/)
 
 ## Build
 
